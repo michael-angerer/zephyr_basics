@@ -68,7 +68,7 @@ static ssize_t write_led_state(struct bt_conn *conn,
   return len;
 }
 
-// GATT Table
+// Attribute Table
 
 BT_GATT_SERVICE_DEFINE(
     led_svc, BT_GATT_PRIMARY_SERVICE(&led_svc_uuid),

@@ -81,7 +81,9 @@ void main(void) {
   int err;
 
   // make sure the LED device is ready
-  if (!device_is_ready(led.port)) return;
+  if (!device_is_ready(led.port)) {
+    return;
+  }
   gpio_pin_configure_dt(&led, GPIO_OUTPUT);
   gpio_pin_set_dt(&led, led_state);
 

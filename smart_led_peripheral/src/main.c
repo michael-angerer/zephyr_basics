@@ -1,8 +1,7 @@
-#include <bluetooth/bluetooth.h>
-#include <bluetooth/gatt.h>
-#include <bluetooth/uuid.h>
-#include <drivers/gpio.h>
-#include <zephyr.h>
+#include <zephyr/bluetooth/bluetooth.h>
+#include <zephyr/bluetooth/gatt.h>
+#include <zephyr/bluetooth/uuid.h>
+#include <zephyr/drivers/gpio.h>
 
 // LED Device
 #define LED DT_NODELABEL(led0)

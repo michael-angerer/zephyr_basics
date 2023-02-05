@@ -1,0 +1,14 @@
+/ {
+	leds {
+		compatible = "gpio-leds";
+		ledgreen: led_g {
+			gpios = <&gpio0 25 GPIO_ACTIVE_HIGH>;
+		};
+		ledyellow: led_y {
+			gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>;
+		};
+		ledred: led_r {
+			gpios = <&gpio0 27 GPIO_ACTIVE_HIGH>;
+		};
+	};
+};

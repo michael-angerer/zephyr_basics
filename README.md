@@ -16,5 +16,5 @@ Read more: [Zephyr Basics: Bluetooth Low Energy (BLE) - Part 2: Central](http://
 
 ## Shell
 
-A sample project containing a custom shell command to control LEDs.
+A sample project containing a custom shell command to control LEDs. <br>
 Read more: [Zephyr Basics: Shell](https://michaelangerer.dev/zephyr/2023/02/12/zephyr-basics-shell.html
